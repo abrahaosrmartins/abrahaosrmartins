@@ -3,7 +3,7 @@
 I'm Abrahão Martins
 
 - 🔭 I’m currently working on Laravel projects
-- 🌱 I’m currently learning Blockchain, Deep Learning and a bit of Astrophysics.
+- 🌱 I’m currently learning Python, Django, DevOps Tools and a bit of Astrophysics.
 - 😄 Pronouns: (He/Him/Ele/Dele)
 ##
 
