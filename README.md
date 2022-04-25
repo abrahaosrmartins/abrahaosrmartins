@@ -1,27 +1,16 @@
-### Hi there 👋
-
-I'm Abrahão Martins
-
-- 🔭 I’m currently working on Laravel projects
-- 🌱 I’m currently learning Python, Django, DevOps Tools and a bit of Astrophysics.
-- 😄 Pronouns: (He/Him/Ele/Dele)
-##
-
 <div>
-  <a href="https://github.com/abrahaosrmartins">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=abrahaosrmartins&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abrahaosrmartins&layout=compact&langs_count=7&theme=dark&count_private=true"/>
+  <img src="https://github.com/abrahaosrmartins/abrahaosrmartins/blob/main/carbon_vscode.png"/>
 </div>
-<div style="display: inline_block"><br>
-  <img align="center" alt="Ab-Composer" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/composer/composer-original.svg">
-  <img align="center" alt="Ab-Laravel" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/laravel/laravel-plain.svg">
-  <img align="center" alt="Ab-Php" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/php/php-plain.svg">
-  <img align="center" alt="Ab-Docker" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg">
-  <img align="center" alt="Ab-Vscode" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg">
-  <img align="center" alt="Ab-Python" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg">
-  <img align="center" alt="Ab-Trello" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain.svg">
-  <img align="center" alt="Ab-Slack" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/slack/slack-original.svg">
-  <img align="center" alt="Ab-Mysql" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg">
+<div style=""><br>
+  <img alt="Ab-Composer" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/composer/composer-original.svg">
+  <img alt="Ab-Laravel" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/laravel/laravel-plain.svg">
+  <img alt="Ab-Php" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/php/php-plain.svg">
+  <img alt="Ab-Docker" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg">
+  <img alt="Ab-Vscode" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg">
+  <img alt="Ab-Python" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg">
+  <img alt="Ab-Trello" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain.svg">
+  <img alt="Ab-Slack" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/slack/slack-original.svg">
+  <img alt="Ab-Mysql" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg">
 </div>
   
   ##
