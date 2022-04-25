@@ -11,19 +11,13 @@ class AbrahaoMartins extends BackendDeveloper
 {
   /**
    * @var MainGoals $mainGoals
-   */
-  protected MainGoals $mainGoals;
-    
-  /**
    * @var Studying $studying
-   */
-  protected Studying $studying;
-    
-  /**
    * @var WorkingOn $workingOn
    */
+  protected MainGoals $mainGoals;
+  protected Studying $studying;
   protected WorkingOn $workingOn;
-  
+
   /**
   * Class constructor
   *
@@ -31,11 +25,8 @@ class AbrahaoMartins extends BackendDeveloper
   * @param Studying $studying
   * @param WorkingOn $workingOn
   */
-  public function __construct(
-    MainGoals $mainGoals,
-    Studying $studying,
-    WorkingOn $workingOn,
-  ) {
+  public function __construct(MainGoals $mainGoals, Studying $studying, WorkingOn $workingOn,)
+  {
     $this->mainGoals = $mainGoals,
     $this->studying = $studying;
     $this->workingOn = $workingOn;
@@ -49,8 +40,7 @@ class AbrahaoMartins extends BackendDeveloper
   public function getWorkingOnProjects(): WorkingOn
   {
     $work = $this->workingOn
-      ->with('laravel', 'api_rest', 'scrum')
-      ->get('php_projects');
+      ->with('laravel', 'api_rest', 'scrum')->get('php_projects');
     
     return response()->json($work, 200);
   }
