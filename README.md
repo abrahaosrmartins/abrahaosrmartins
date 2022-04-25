@@ -1,4 +1,91 @@
-<img src="https://github.com/abrahaosrmartins/abrahaosrmartins/blob/main/carbon_vscode.png"/>
+```
+<?php
+  
+namespace MyGithubProfile;
+
+use DeepFocus\Studying;
+use MyLife\MainGoals;
+use MyLife\WorkingOn;
+
+class AbrahaoMartins extends BackendDeveloper
+{
+  /**
+   * @var MainGoals $mainGoals
+   */
+  protected MainGoals $mainGoals;
+    
+  /**
+   * @var Studying $studying
+   */
+  protected Studying $studying;
+    
+  /**
+   * @var WorkingOn $workingOn
+   */
+  protected WorkingOn $workingOn;
+  
+  /**
+  * Class constructor
+  *
+  * @param MainGoals $mainGoals
+  * @param Studying $studying
+  * @param WorkingOn $workingOn
+  */
+  public function __construct(
+    MainGoals $mainGoals,
+    Studying $studying,
+    WorkingOn $workingOn,
+  ) {
+    $this->mainGoals = $mainGoals,
+    $this->studying = $studying;
+    $this->workingOn = $workingOn;
+  }
+  
+  /**
+  * I'm currently working at @wedevBr
+  *
+  * @return WorkingOn
+  */
+  public function getWorkingOnProjects(): WorkingOn
+  {
+    $work = $this->workingOn
+      ->with('laravel', 'api_rest', 'scrum')
+      ->get('php_projects');
+    
+    return response()->json($work, 200);
+  }
+  
+  /**
+  * Every day studying...
+  *
+  * @return Studying
+  */
+  public function getStudyingTools(): Studying
+  {
+    $studying_topics = $this->studying
+      ->with('php', 'laravel', 'api_rest', 'data_structure', 'solid', 'astrophysics') // why not, right?
+      ->get('backend_improvement_tools');
+             
+    return response->json($studying_topics, 200);
+  }
+             
+  /**
+  * Future main goals
+  *
+  * @return MainGoals
+  */
+  public function getFutureMainGoals(): MainGoals
+  {
+    $future_goals = $this->mainGoals
+      ->get('complete_senior_skill_set', 'business_skill_set', 'c-level_position');
+             
+    return response()->json($future_goals, 200)
+  }
+}
+
+```
+
+[//]: # (<img src="https://github.com/abrahaosrmartins/abrahaosrmartins/blob/main/carbon_vscode.png"/>)
 
 ### Everyday tools:
 <div>
