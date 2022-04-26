@@ -80,7 +80,7 @@ class AbrahaoMartins extends BackendDeveloper
 ### Everyday tools:
 <div>
   <img alt="Ab-Composer" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/composer/composer-original.svg">
-  <img alt="Ab-Laravel" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/laravel/laravel-plain.svg">
+  <img alt="Ab-Laravel" height="30" width="30" src="https://github.com/abrahaosrmartins/abrahaosrmartins/blob/main/logo-laravel-icon-256.png">
   <img alt="Ab-Php" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/php/php-plain.svg">
   <img alt="Ab-Docker" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg">
   <img alt="Ab-Vscode" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg">
