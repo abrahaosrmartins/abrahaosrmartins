@@ -9,23 +9,14 @@ use MyLife\WorkingOn;
 
 class AbrahaoMartins extends BackendDeveloper
 {
-  /**
-   * @var MainGoals $mainGoals
-   * @var Studying $studying
-   * @var WorkingOn $workingOn
-   */
   protected MainGoals $mainGoals;
   protected Studying $studying;
   protected WorkingOn $workingOn;
 
   /**
   * Class constructor
-  *
-  * @param MainGoals $mainGoals
-  * @param Studying $studying
-  * @param WorkingOn $workingOn
   */
-  public function __construct(MainGoals $mainGoals, Studying $studying, WorkingOn $workingOn,)
+  public function __construct(MainGoals $mainGoals, Studying $studying, WorkingOn $workingOn)
   {
     $this->mainGoals = $mainGoals,
     $this->studying = $studying;
@@ -34,8 +25,6 @@ class AbrahaoMartins extends BackendDeveloper
   
   /**
   * I'm currently working at @wedevBr
-  *
-  * @return WorkingOn
   */
   public function getWorkingOnProjects(): WorkingOn
   {
@@ -47,8 +36,6 @@ class AbrahaoMartins extends BackendDeveloper
   
   /**
   * Every day studying...
-  *
-  * @return Studying
   */
   public function getStudyingTools(): Studying
   {
@@ -56,13 +43,11 @@ class AbrahaoMartins extends BackendDeveloper
       ->with('php', 'laravel', 'api_rest', 'data_structure', 'solid', 'astrophysics') // why not, right?
       ->get('backend_improvement_tools');
              
-    return response->json($studying_topics, 200);
+    return response()->json($studying_topics, 200);
   }
              
   /**
   * Future main goals
-  *
-  * @return MainGoals
   */
   public function getFutureMainGoals(): MainGoals
   {
